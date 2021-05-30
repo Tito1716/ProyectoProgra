@@ -1,0 +1,14 @@
+C:\Users\titot\source\repos\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\titot\source\repos\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\titot\source\repos\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\titot\source\repos\Proyecto\bin\Debug\MetroFramework.dll
+C:\Users\titot\source\repos\Proyecto\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.Form2.resources
+C:\Users\titot\source\repos\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
