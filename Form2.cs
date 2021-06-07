@@ -9,17 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
 using MetroFramework.Forms;
+using Proyecto;
 
 namespace Proyecto
 {
+
     public partial class Form2 : MetroFramework.Forms.MetroForm
     {
-        registro MyRegistro = new registro(); //instancia de mi clase
 
-
+        //instancia de mi clase y la cracion de una lista
+         List<registro> MiRegistros = new List<registro>();
+        Form3 Consulta;
         public Form2()
         {
             InitializeComponent();
+           
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -44,19 +48,24 @@ namespace Proyecto
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form3 nuevo = new Form3();
-            this.Hide();
-            nuevo.ShowDialog();
-            this.Close();
+            //Envio la Lista al Form de consulta
+            Form3 Cons = new Form3(MiRegistros);
+            Cons.ShowDialog();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MyRegistro.Ticket = txtpedido.Text;
-            MyRegistro.Nombre = txtnombre.Text;
-            MyRegistro.Producto = txtpedido.Text;
-            MyRegistro.Fecha = txtfecha.Text;
-
+            //Se agregan los registros a la lista
+            MiRegistros.Add(new registro
+            {
+                Ticket = txtpedido.Text,
+                Nombre = txtnombre.Text,
+                Producto = combopedido.Text,
+                Fecha = txtfecha.Text
+            });
+           
+            
             MessageBox.Show("Se guardo registro correctamente");
         }
 
@@ -64,8 +73,6 @@ namespace Proyecto
         {
             txtpedido.Clear();
             txtnombre.Clear();
-            
-            
         }
     }
 

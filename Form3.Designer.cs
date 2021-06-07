@@ -34,11 +34,11 @@ namespace Proyecto
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.txtCliente = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.txtpedido = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.txtOrden = new MetroFramework.Controls.MetroTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -51,6 +51,7 @@ namespace Proyecto
             this.button1.TabIndex = 0;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -87,12 +88,12 @@ namespace Proyecto
             this.metroLabel3.TabIndex = 19;
             this.metroLabel3.Text = "Orden";
             // 
-            // metroTextBox2
+            // txtCliente
             // 
-            this.metroTextBox2.Location = new System.Drawing.Point(217, 191);
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.Size = new System.Drawing.Size(198, 23);
-            this.metroTextBox2.TabIndex = 18;
+            this.txtCliente.Location = new System.Drawing.Point(217, 191);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.Size = new System.Drawing.Size(198, 23);
+            this.txtCliente.TabIndex = 18;
             // 
             // metroLabel2
             // 
@@ -103,12 +104,12 @@ namespace Proyecto
             this.metroLabel2.TabIndex = 17;
             this.metroLabel2.Text = "Nombre de cliente";
             // 
-            // metroTextBox1
+            // txtpedido
             // 
-            this.metroTextBox1.Location = new System.Drawing.Point(217, 160);
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.Size = new System.Drawing.Size(198, 23);
-            this.metroTextBox1.TabIndex = 16;
+            this.txtpedido.Location = new System.Drawing.Point(217, 160);
+            this.txtpedido.Name = "txtpedido";
+            this.txtpedido.Size = new System.Drawing.Size(198, 23);
+            this.txtpedido.TabIndex = 16;
             // 
             // metroLabel1
             // 
@@ -119,12 +120,12 @@ namespace Proyecto
             this.metroLabel1.TabIndex = 15;
             this.metroLabel1.Text = "Pedido";
             // 
-            // metroTextBox4
+            // txtOrden
             // 
-            this.metroTextBox4.Location = new System.Drawing.Point(217, 224);
-            this.metroTextBox4.Name = "metroTextBox4";
-            this.metroTextBox4.Size = new System.Drawing.Size(198, 23);
-            this.metroTextBox4.TabIndex = 25;
+            this.txtOrden.Location = new System.Drawing.Point(217, 224);
+            this.txtOrden.Name = "txtOrden";
+            this.txtOrden.Size = new System.Drawing.Size(198, 23);
+            this.txtOrden.TabIndex = 25;
             // 
             // label2
             // 
@@ -152,11 +153,11 @@ namespace Proyecto
             this.ClientSize = new System.Drawing.Size(467, 309);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.metroTextBox4);
+            this.Controls.Add(this.txtOrden);
             this.Controls.Add(this.metroLabel3);
-            this.Controls.Add(this.metroTextBox2);
+            this.Controls.Add(this.txtCliente);
             this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.metroTextBox1);
+            this.Controls.Add(this.txtpedido);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -179,11 +180,11 @@ namespace Proyecto
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroTextBox txtCliente;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroTextBox txtpedido;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox4;
+        private MetroFramework.Controls.MetroTextBox txtOrden;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
     }

@@ -52,6 +52,9 @@ namespace Proyecto
                 if (Usuaario == "Usuario123" && Contraseña == "123456")
                 {
                     MessageBox.Show("Ingreso correcto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Form2 principal = new Form2();
+                    principal.ShowDialog();
+                    this.Close();
                 }
                 else
                 {

@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace Proyecto
 {
-    class registro
+     public class registro
     {
-        private string ticket;
-        private string nombre;
-        private string producto;
-        private string fecha;
-
+        //Se declaran los nombre de los campos
         public string Ticket { get; set; }
         public string Nombre { get; set; }
         public string Producto { get; set; }
         public string Fecha { get; set; }
-
+     
     }
 }
