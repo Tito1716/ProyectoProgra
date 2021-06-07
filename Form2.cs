@@ -74,6 +74,14 @@ namespace Proyecto
             txtpedido.Clear();
             txtnombre.Clear();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" Creado por:" +"\n" + "David Ernesto Alemán Posada - AP101318" + "\n" + "Tito Antonio Arévalo Rivas - AR101921" + "\n" + "Diego Antonio Arias Navarrete - AN100518");
+
+
+
+        }
     }
 
 }
